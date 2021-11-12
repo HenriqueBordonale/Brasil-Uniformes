@@ -4,3 +4,12 @@
     height: 150px;
 	font-size: 1.5em;
 }
+.carousel_main{
+	width: 90vh;
+	align-items: center;
+	flex-grow: 4;
+}
+.container-fluid{
+
+	align-items: center;
+  }	
