@@ -1,5 +1,4 @@
 .cabecalho{
-	background-color: tomato;
 	text-align: center;
     height: 150px;
 	font-size: 1.5em;
@@ -12,4 +11,7 @@
 #navbar{
 	align-items: center;
 	margin-left: 32%;
+}
+#item_carousel{
+	border-radius: 10px;
 }
