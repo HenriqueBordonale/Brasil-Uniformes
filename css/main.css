@@ -1,17 +1,31 @@
 .cabecalho{
-	text-align: center;
-    height: 150px;
-	font-size: 1.5em;
+	background-color: rgb(4, 7, 51);
+    height: 120px;	
+	display: flex;
+	flex-direction:row;	
 }
-.carousel_main{
-	
-	align-items: center;
-	
+.info{
+	flex-grow: 1;
 }
-#navbar{
-	align-items: center;
-	margin-left: 32%;
+.text_inf{
+	align-items: flex-end;
+	display: flex;
+	flex-direction: column;
+	font-family:inter;
+	font-size: 0.9em;
+	color: rgb(238, 238, 238);
+	text-decoration: none;
+	word-wrap: break-word;	
 }
+
+.cabecalho a:hover{
+	color: rgb(199, 198, 198);
+}
+
 #item_carousel{
 	border-radius: 10px;
+}
+@font-face {
+	font-family: inter;
+	src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf)
 }
