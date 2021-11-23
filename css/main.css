@@ -1,11 +1,17 @@
 .cabecalho{
-	background-color: rgb(4, 7, 51);
+	background-color: rgb(255, 255, 255);
+	background-image: url("../images/background.png");
     height: 120px;	
 	display: flex;
 	flex-direction:row;	
 }
 .info{
 	flex-grow: 1;
+}
+#navbar{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 .text_inf{
 	align-items: flex-end;
@@ -17,9 +23,8 @@
 	text-decoration: none;
 	word-wrap: break-word;	
 }
-
 .cabecalho a:hover{
-	color: rgb(199, 198, 198);
+	color: rgb(238, 238, 238);
 }
 
 #item_carousel{
