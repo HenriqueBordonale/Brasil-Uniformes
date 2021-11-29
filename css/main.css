@@ -1,7 +1,8 @@
 .cabecalho{
 	background-color: rgb(255, 255, 255);
 	background-image: url("../images/background.png");
-	background-size: 100%;
+	background-size:cover;
+	background-position: center;
 	background-repeat: no-repeat;
     height: 120px;	
 	display: flex;
@@ -9,6 +10,9 @@
 }
 .cabecalho a:hover{
 	color: rgb(238, 238, 238);
+}
+.logo{
+	flex-grow: 1;
 }
 .info{
 	flex-grow: 1;
@@ -18,7 +22,7 @@
 	display: flex;
 	flex-direction: column;
 	font-family:inter;
-	font-size: 0.9em;
+	font-size: 80%;
 	color: rgb(247, 247, 247);
 	text-decoration: none;
 	word-wrap: break-word;	
@@ -31,7 +35,7 @@
 	flex-direction: column;
 }
 #item_carousel{
-	border-radius: 10px;
+	border-radius: 15px;
 }
 .font1{
 	font-family: inter;
