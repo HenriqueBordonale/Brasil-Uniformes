@@ -7,19 +7,21 @@
     height: 120px;	
 	display: flex;
 	flex-direction:row;
+	justify-content: space-around;
+	gap: 70%;
+}
+.logo{
+	min-width: 0;
+}
+.info{
+	min-width: 0;
 }
 .cabecalho a:hover{
 	color: rgb(238, 238, 238);
 }
-.logo{
-	flex-grow: 1;
-}
-.info{
-	flex-grow: 1;
-}
 .text_inf{
-	align-items: flex-end;
 	display: flex;
+	align-items: flex-end;
 	flex-direction: column;
 	font-family:inter;
 	font-size: 80%;
@@ -33,6 +35,14 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}
+#mostruario{
+	height: 500px;
+	background-color: #000f2e;
+}
+#empresa{
+	height: 500px;
+	background-color: rgb(240, 238, 241)
 }
 #item_carousel{
 	border-radius: 15px;
@@ -50,6 +60,15 @@
 	color: rgb(236, 236, 236);
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.750);
 	
+}
+.fontmenu{
+	font-family: inter;
+	color: white;
+	align-items: center;
+    margin-top: 30px; 
+	text-align: center;
+	text-shadow: 2px 2px 2px black; 
+	opacity: 0.9;
 }
 
 @font-face {
