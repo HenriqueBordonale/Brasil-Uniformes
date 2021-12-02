@@ -44,6 +44,18 @@
 	height: 500px;
 	background-color: rgb(240, 238, 241)
 }
+#certificados{
+	height: 500px;
+	background-color: rgb(240, 238, 241)
+}
+#feedback{
+	height: 500px;
+	background-color: rgb(240, 238, 241)
+}
+.rodape{
+	height: 100px;
+	background-color: #000f2e;
+}
 #item_carousel{
 	border-radius: 15px;
 }
