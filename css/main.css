@@ -36,9 +36,19 @@
 	align-items: center;
 	flex-direction: column;
 }
+#carousel{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 #mostruario{
 	height: 500px;
 	background-color: #000f2e;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
 }
 #empresa{
 	height: 500px;
@@ -59,19 +69,27 @@
 #item_carousel{
 	border-radius: 15px;
 }
+.InfoMostr{
+	height: 400px;
+}
+.fontP{
+	text-align: center;
+	font-family: inter;
+	font-size: 1.9em;
+	color: #f7f7f7;
+}
+.fontM{
+	font-family: inter;
+	font-size: 1.6em;
+	color: rgb(156, 156, 156);
+	text-align:justify;
+	list-style-type: none;
+}
 .font1{
 	font-family: inter;
-	font-size: 0.9em;
-	color: rgb(236, 236, 236);
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.550);
-	
-}
-.font2{
-	font-family: inter;
-	font-size: 1.5em;
-	color: rgb(236, 236, 236);
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.750);
-	
+	font-size: 1.2em;
+	color: rgb(255, 255, 255);	
+	text-shadow: 1px 1px 1px rgba(12, 12, 12, 0.801); 
 }
 .fontmenu{
 	font-family: inter;
