@@ -23,7 +23,7 @@
 	display: flex;
 	align-items: flex-end;
 	flex-direction: column;
-	font-family:inter;
+	font-family:CaviarDreams;
 	font-size: 80%;
 	color: rgb(247, 247, 247);
 	text-decoration: none;
@@ -41,6 +41,11 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	height: 550px;
+	background-image: url(../images/gray-concrete-wall.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
 }
 #mostruario{
 	height: 500px;
@@ -63,7 +68,7 @@
 	background-color: rgb(240, 238, 241)
 }
 .rodape{
-	height: 100px;
+	height: 120px;
 	background-color: #000f2e;
 }
 #item_carousel{
@@ -75,15 +80,17 @@
 .fontP{
 	text-align: center;
 	font-family: inter;
-	font-size: 1.9em;
+	font-size: 27px;
 	color: #f7f7f7;
 }
 .fontM{
-	font-family: inter;
-	font-size: 1.6em;
-	color: rgb(156, 156, 156);
+	font-family: CaviarDreams;
+	font-size: 25px;
+	color: rgb(145, 145, 145);
 	text-align:justify;
-	list-style-type: none;
+}
+.fontM:hover {
+	color: #fff;
 }
 .font1{
 	font-family: inter;
@@ -104,4 +111,8 @@
 @font-face {
 	font-family: inter;
 	src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf)
+}
+@font-face {
+	font-family: CaviarDreams;
+	src: url(../fontes/caviar_dreams/CaviarDreams.ttf)
 }
