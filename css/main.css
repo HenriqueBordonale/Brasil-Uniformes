@@ -1,36 +1,27 @@
+/*CABEÇALHO*/
 .cabecalho{
-	background-color: rgb(255, 255, 255);
-	background-image: url("../images/background.png");
+	background-image: url("../images/background.jpg");
 	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
-    height: 120px;	
+    height: 13vh;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
-	gap: 70%;
+	gap: 75%;
 }
 .logo{
 	min-width: 0;
 }
 .info{
 	min-width: 0;
+	margin-top: 1vh;
+
 }
 .cabecalho a:hover{
-	color: rgb(238, 238, 238);
+	color: rgb(180, 180, 180);
 }
-.text_inf{
-	display: flex;
-	align-items: flex-end;
-	flex-direction: column;
-	font-family:CaviarDreams;
-	font-size: 80%;
-	color: rgb(247, 247, 247);
-	text-decoration: none;
-	word-wrap: break-word;	
-	margin-top: 12px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
-}
+/*NAV-BAR E CAROUSEL*/
 #navbar{
 	display: flex;
 	align-items: center;
@@ -41,14 +32,15 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	height: 550px;
+	height: 60vh;
 	background-image: url(../images/gray-concrete-wall.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-size:cover;
 }
+/*TELAS*/
 #mostruario{
-	height: 500px;
+	height: 60vh;
 	background-color: #000f2e;
 	display: flex;
 	flex-direction: row;
@@ -56,16 +48,29 @@
 	align-items: center;
 }
 #empresa{
-	height: 500px;
-	background-color: rgb(240, 238, 241)
+	background-image: url(../images/gray-concrete-wall.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 60vh;
+	background-color: rgb(240, 238, 241);
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
 }
 #certificados{
-	height: 500px;
-	background-color: rgb(240, 238, 241)
+	height: 60vh;
+	background-color: #000f2e;
+
 }
 #feedback{
-	height: 500px;
-	background-color: rgb(240, 238, 241)
+	height: 60vh;
+	background-image: url(../images/gray-concrete-wall.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
 }
 .rodape{
 	height: 120px;
@@ -75,30 +80,57 @@
 	border-radius: 15px;
 }
 .InfoMostr{
-	height: 400px;
+	height: 40vh;
 }
-.fontP{
+/*ESTILIZAÇÃO DE FONTE*/
+.text_inf{ /*Fonte informações do cabeçalho*/
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	font-family:CaviarDreams;
+	font-size: 1.5vh;
+	color: rgb(247, 247, 247);
+	text-decoration: none;
+	word-wrap: break-word;	
+	margin-top: 10px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+}
+.fontP{ /*Fonte Paragrafo - TELA AZUL*/
 	text-align: center;
 	font-family: inter;
-	font-size: 27px;
+	font-size: 2.6vh;
 	color: #f7f7f7;
 }
-.fontM{
+.fontM{ /*Fonte conteúdo - TELA AZUL*/
 	font-family: CaviarDreams;
-	font-size: 25px;
+	font-size: 2.5vh;
 	color: rgb(145, 145, 145);
 	text-align:justify;
 }
-.fontM:hover {
+.fontM:hover { 
 	color: #fff;
 }
-.font1{
+.fontPB{ /*Fonte Paragrafo - TELA BRANCA*/
+	text-align:justify;
+	font-family: inter;
+	font-size: 2.6vh;
+	color: #000f2e;
+}
+.fontMB{ /*Fonte conteúdo - TELA BRANCA*/
+	list-style-type: none;
+ 	list-style: none;
+	font-family: CaviarDreams;
+	font-size: 2vh;
+	color: rgb(99, 99, 99);
+	text-align:justify;
+}
+.font1{ /*Fonte carousel*/
 	font-family: inter;
 	font-size: 1.2em;
 	color: rgb(255, 255, 255);	
 	text-shadow: 1px 1px 1px rgba(12, 12, 12, 0.801); 
 }
-.fontmenu{
+.fontmenu{ /*Fonte nome das Telas*/
 	font-family: inter;
 	color: white;
 	align-items: center;
@@ -108,6 +140,7 @@
 	opacity: 0.9;
 }
 
+/*FONTES IMPORTADAS*/
 @font-face {
 	font-family: inter;
 	src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf)
