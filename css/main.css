@@ -4,7 +4,7 @@
 	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
-    height: 13vh;
+    height: 15vh;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
@@ -88,22 +88,22 @@
 	align-items: flex-end;
 	flex-direction: column;
 	font-family:CaviarDreams;
-	font-size: 1.5vh;
+	font-size: 1.9vh;
 	color: rgb(247, 247, 247);
 	text-decoration: none;
 	word-wrap: break-word;	
-	margin-top: 10px;
+	margin-top: 5px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
 }
 .fontP{ /*Fonte Paragrafo - TELA AZUL*/
 	text-align: center;
 	font-family: inter;
-	font-size: 2.6vh;
+	font-size: 3.1vh;
 	color: #f7f7f7;
 }
 .fontM{ /*Fonte conteúdo - TELA AZUL*/
 	font-family: CaviarDreams;
-	font-size: 2.5vh;
+	font-size: 3vh;
 	color: rgb(145, 145, 145);
 	text-align:justify;
 }
@@ -113,14 +113,14 @@
 .fontPB{ /*Fonte Paragrafo - TELA BRANCA*/
 	text-align:justify;
 	font-family: inter;
-	font-size: 2.6vh;
+	font-size: 3vh;
 	color: #000f2e;
 }
 .fontMB{ /*Fonte conteúdo - TELA BRANCA*/
 	list-style-type: none;
  	list-style: none;
 	font-family: CaviarDreams;
-	font-size: 2vh;
+	font-size: 2.3vh;
 	color: rgb(99, 99, 99);
 	text-align:justify;
 }
