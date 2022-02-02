@@ -124,6 +124,12 @@
 	color: rgb(99, 99, 99);
 	text-align:justify;
 }
+.arquivos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50px;
+}
 .font1{ /*Fonte carousel*/
 	font-family: inter;
 	font-size: 1.2em;
@@ -134,10 +140,9 @@
 	font-family: inter;
 	color: white;
 	align-items: center;
-    margin-top: 30px; 
+    margin-top: 40px; 
 	text-align: center;
-	text-shadow: 2px 2px 2px black; 
-	opacity: 0.9;
+	font-size: 25px;
 }
 
 /*FONTES IMPORTADAS*/
