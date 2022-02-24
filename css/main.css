@@ -94,18 +94,21 @@
 	word-wrap: break-word;	
 	margin-top: 5px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+	cursor: default;
 }
 .fontP{ /*Fonte Paragrafo - TELA AZUL*/
 	text-align: center;
 	font-family: inter;
 	font-size: 3.1vh;
 	color: #f7f7f7;
+	cursor: default;
 }
 .fontM{ /*Fonte conteúdo - TELA AZUL*/
 	font-family: CaviarDreams;
 	font-size: 3vh;
 	color: rgb(145, 145, 145);
 	text-align:justify;
+	cursor: default;
 }
 .fontM:hover { 
 	color: #fff;
@@ -128,7 +131,13 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 50px;
+	margin-top: 60px;
+}
+.encaminharfb{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	margin-top: 80px;
 }
 .font1{ /*Fonte carousel*/
 	font-family: inter;
@@ -143,6 +152,10 @@
     margin-top: 40px; 
 	text-align: center;
 	font-size: 25px;
+}
+.FonteTitulo{
+	color: white;
+	font-size: 15px;
 }
 
 /*FONTES IMPORTADAS*/
