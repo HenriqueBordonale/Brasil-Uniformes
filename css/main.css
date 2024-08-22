@@ -1,33 +1,38 @@
 /*CABEÇALHO*/
-.cabecalho{
+.cabecalho {
 	background-image: url("../images/background.jpg");
-	background-size:cover;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-    height: 15vh;
+	height: 15vh;
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	justify-content: space-around;
 	gap: 75%;
 }
-.logo{
+
+.logo {
 	min-width: 0;
 }
-.info{
+
+.info {
 	min-width: 0;
 	margin-top: 1vh;
 
 }
-.cabecalho a:hover{
+
+.cabecalho a:hover {
 	color: rgb(180, 180, 180);
 }
+
 /*NAV-BAR E CAROUSEL*/
-#navbar{
+#navbar {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-#carousel{
+
+#carousel {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -36,133 +41,207 @@
 	background-image: url(../images/gray-concrete-wall.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: cover;
 }
+
 /*TELAS*/
-#mostruario{
-	height: 60vh;
+#menu {
+	height: 90vh;
 	background-color: #000f2e;
 	display: flex;
 	flex-direction: row;
-	justify-content:space-around;
-	align-items: center;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
 }
-#empresa{
+
+#empresa {
 	background-image: url(../images/gray-concrete-wall.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: cover;
 	height: 60vh;
 	background-color: rgb(240, 238, 241);
 	display: flex;
 	flex-direction: row;
-	justify-content:space-around;
+	justify-content: space-between;
 	align-items: center;
 }
-#certificados{
-	height: 60vh;
-	background-color: #000f2e;
 
+#certificados {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 4%;
+	height: 50%;
 }
-#feedback{
-	height: 60vh;
-	background-image: url(../images/gray-concrete-wall.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-size:cover;
-	
-}
-.rodape{
+
+.rodape {
 	height: 120px;
 	background-color: #000f2e;
 }
-#item_carousel{
+
+#item_carousel {
 	border-radius: 15px;
 }
-.InfoMostr{
-	height: 40vh;
+
+.Mostruario {
+	margin-top: 5%;
+	width: 50%;
+	height: 100%;
+
+
 }
+
+.feedback {
+	height: 50%;
+	margin-top: 10vh;
+}
+
+.Contato {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	background-color: #e0e0da;
+	background-image: url(../images/bordado_fundo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /*ESTILIZAÇÃO DE FONTE*/
-.text_inf{ /*Fonte informações do cabeçalho*/
+.text_inf {
+	/*Fonte informações do cabeçalho*/
 	display: flex;
 	align-items: flex-end;
 	flex-direction: column;
-	font-family:CaviarDreams;
+	font-family: CaviarDreams;
 	font-size: 1.9vh;
 	color: rgb(247, 247, 247);
 	text-decoration: none;
-	word-wrap: break-word;	
+	word-wrap: break-word;
 	margin-top: 5px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+	text-shadow: 1px 1px 1px rgba(41, 39, 39, 0.25);
 	cursor: default;
 }
-.fontP{ /*Fonte Paragrafo - TELA AZUL*/
+
+.fontP {
+	/*Fonte Paragrafo - TELA AZUL*/
 	text-align: center;
+	opacity: 0.9;
 	font-family: inter;
-	font-size: 3.1vh;
+	font-size: 4vh;
 	color: #f7f7f7;
 	cursor: default;
 }
-.fontM{ /*Fonte conteúdo - TELA AZUL*/
+
+.fontM {
+	/*Fonte conteúdo - TELA AZUL*/
 	font-family: CaviarDreams;
+	opacity: 0.9;
 	font-size: 3vh;
-	color: rgb(145, 145, 145);
-	text-align:justify;
+	color: rgb(241, 239, 239);
+	text-align: center;
 	cursor: default;
 }
-.fontM:hover { 
-	color: #fff;
+
+.fontM:hover {
+	color: #7c7a7a;
 }
-.fontPB{ /*Fonte Paragrafo - TELA BRANCA*/
-	text-align:justify;
+
+.fontPB {
+	/*Fonte Paragrafo - TELA BRANCA*/
+	text-align: justify;
 	font-family: inter;
 	font-size: 3vh;
 	color: #000f2e;
 }
-.fontMB{ /*Fonte conteúdo - TELA BRANCA*/
+
+.fontMB {
+	/*Fonte conteúdo - TELA BRANCA*/
 	list-style-type: none;
- 	list-style: none;
+	list-style: none;
 	font-family: CaviarDreams;
 	font-size: 2.3vh;
 	color: rgb(99, 99, 99);
-	text-align:justify;
+	text-align: justify;
 }
-.arquivos{
+
+.arquivos {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 60px;
 }
-.encaminharfb{
+
+.font1 {
+	/*Fonte carousel*/
+	font-family: inter;
+	font-size: 1.6em;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+	color: #fff !important;
+}
+
+.encaminhar_mens {
+	margin-top: 8%;
 	display: flex;
 	flex-direction: row;
-	justify-content:space-evenly;
-	margin-top: 80px;
+	justify-content: center;
+	align-items: stretch;
+	gap: 10%;
+	height: 30%;
 }
-.font1{ /*Fonte carousel*/
+
+.whatsapp {
+	width: 35%;
+    height: 45%;
+	background: linear-gradient(90deg, #000f2ee7 0%, #1b315ee3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+	border-radius: 2.8vh;
 	font-family: inter;
-	font-size: 1.2em;
-	color: rgb(255, 255, 255);	
-	text-shadow: 1px 1px 1px rgba(12, 12, 12, 0.801); 
+	color: #f7f7f7e0;
 }
-.fontmenu{ /*Fonte nome das Telas*/
+
+.whatsapp:hover {
+	transform: scale(1.2);
+}
+.documentos{
+	margin-top: 5%;
+	transition: transform 0.3s ease;
+}
+
+.documentos:hover {
+	transform: scale(1.3);
+}
+
+.fontmenu {
+	/*Fonte nome das Telas*/
 	font-family: inter;
 	color: white;
 	align-items: center;
-    margin-top: 40px; 
+	margin-top: 40px;
 	text-align: center;
 	font-size: 25px;
 }
-.FonteTitulo{
+
+.FonteTitulo {
 	color: white;
 	font-size: 15px;
 }
+
 
 /*FONTES IMPORTADAS*/
 @font-face {
 	font-family: inter;
 	src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf)
 }
+
 @font-face {
 	font-family: CaviarDreams;
 	src: url(../fontes/caviar_dreams/CaviarDreams.ttf)

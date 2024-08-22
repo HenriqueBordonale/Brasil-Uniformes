@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <link rel="shortcut icon" href="../images/icon.png">
-    <meta charset='utf-8'>
+    <meta charset='UTF-8'>
     <title>Brasil Uniformes</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -110,19 +110,23 @@
                     </button>
                 </div>
             </div>
-            <div id="mostruario">
-                <div class="InfoMostr">
-                    <p class="fontP">PRODUÇÃO</p>
-                    <ul>
+            <div id="menu">
+
+                <div class="Mostruario">
+
+                    <ul style="list-style: none;">
+                        <li class="fontP">Produção</li>
+                        <br>
                         <li class="fontM">Uniformes</li>
                         <li class="fontM">Bordados</li>
                         <li class="fontM">Silkados</li>
                         <li class="fontM">Plastificados</li>
+
                     </ul>
-                </div>
-                <div class="InfoMostr">
-                    <p class="fontP">SEGMENTOS</p>
-                    <ul>
+
+                    <ul style="list-style: none; align-content: center;">
+                        <li class="fontP">Segmentos</li>
+                        <br>
                         <li class="fontM">Produção</li>
                         <li class="fontM">Hospitalar</li>
                         <li class="fontM">Casual</li>
@@ -132,7 +136,27 @@
                         <li class="fontM">Industrial</li>
                     </ul>
                 </div>
+                <div class="Contato">
+                    <div class="feedback">
+                        <h1 style="color: #000f2e; font-size: 4vh;" class="fontP">Entre em contato conosco</h1>
+                        <h1 style="font-size: 2.8vh; color: #000f2e; font-weight: 600;" class="fontM">Envie uma mensagem
+                            ao nosso Whatsapp ou E-mail</h1>
+                        <div class="encaminhar_mens">
 
+                            <div class="whatsapp">Whatsapp</div>
+                            <div class="whatsapp">E-mail</div>
+                        </div>
+                        <div id="certificados">
+                            <h1 style="color: #000f2e; font-size: 4vh;" class="fontP">Documentos</h1>
+                            <h1 style="font-size: 2.8vh; color: #000f2e; font-weight: 600;" class="fontM"
+                                class="fontmenu">Clique para visualizar os documentos</h1>
+                            <div class="documentos">
+                                <img src="../images/send.png"  width="70vh">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <div id="empresa">
                 <div class="InfoMostr">
@@ -150,50 +174,16 @@
                 <img src="../images/producao_.jpg"
                     style="border-radius: 5px; height: 30vh; box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.205); min-width: 0;">
             </div>
-            <div id="certificados">
-                <h1 class="fontmenu">DOCUMENTOS</h1>
-                <h1 style="font-size: 15px; margin-top: 5px;" class="fontmenu">Clique encima do mesmo para baixar o
-                    arquivo</h1>
-                <div class="arquivos">
-                    <div style="text-align: center;">
-                        <h1 class="FonteTitulo">Documento</h1><img style="cursor: pointer;" src="../images/pdf.png" width="40px">
-                    </div>
-                    <div style="text-align: center;">
-                        <h1 class="FonteTitulo">Documento</h1><img style="cursor: pointer;" src="../images/pdf.png" width="40px">
-                    </div>
-                    <div style="text-align: center;">
-                        <h1 class="FonteTitulo">Documento</h1><img style="cursor: pointer;" src="../images/pdf.png" width="40px">
-                    </div>
-                    <div style="text-align: center;">
-                        <h1 class="FonteTitulo">Documento</h1><img style="cursor: pointer;" src="../images/pdf.png" width="40px">
-                    </div>
-                </div>
-            </div>
-            <div id="feedback">
-                <h1 style="color: #000f2e;" class="fontmenu">DEIXE SEU FEEDBACK</h1>
-                <h1 style="font-size: 15px; margin-top: 5px; color: #000f2e;" class="fontmenu">Clique para abrir uma
-                    mensagem no Whatsapp ou encaminhar um e-mail</h1>
-                <div class="encaminharfb">
-                    <div style="text-align: center;">
-                        <h1 style="color: #000f2e;" class="FonteTitulo">Iniciar conversa por Whatsapp</h1>
-                        <img style="cursor: pointer;" src="../images/whatsapp.png" width="60px">
-                    </div>
-                    <div style="text-align: center;">
-                        <h1 style="color: #000f2e;" class="FonteTitulo">Encaminhar E-mail</h1>
-                        <img style="cursor: pointer;" src="../images/send.png" width="55px">
-                    </div>
-                </div>
-            </div>
-            <div class="rodape">
+
+
+            <footer class="rodape">
                 <a href='https://br.freepik.com'>Fotos meramente ilustrativas retiradas do site Freepik</a>
-            </div>
         </div>
+        </footer>
 
     </section>
 
-    <script>
-
-    </script>
+    <script src="../controller/script.js"></script>
 </body>
 
 </html>
